@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nihongo Benkyou</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+        }
+        .header {
+            background-color: #c60c30;
+            padding: 15px;
+            color: white;
+            text-align: center;
+        }
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px; /* Membuat elemen sejajar secara vertikal */
+        }
+
+        .logo {
+            width: 100px; /* Atur ukuran logo */
+            margin-right: 1px; /* Jarak antara logo dan teks */
+        }
+        .brand-name {
+            font-size: 20px;
+            font-weight: bold;
+            color: #ffffff; /* Warna putih untuk kontras dengan latar belakang merah */
+            letter-spacing: 1px; /* Memberikan jarak antar huruf */
+            font-family: 'Arial', sans-serif;
+        } 
+        .navbar {
+            background-color: #b00c25;
+            padding: 10px;
+            display: flex;
+            justify-content: space-around;
+            font-weight: bold;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 16px;
+        }
+
+        .navbar a:hover {
+            background-color: white;
+            border-radius: 5px;
+        }
+
+        .content {
+            text-align: center;
+            padding: 10px;
+        }
+
+        .content h2 {
+            background-color: #f3f3f3;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+            padding: 10px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .grid-item {
+            background-color: #ffb6b6;
+            padding: 20px;
+            border-radius: 10px;
+            font-size: 1em;
+            font-weight: bold;
+            color: #000;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+
+        .grid-item:hover {
+            background-color: #ff8a8a;
+        }
+    </style>
+</head>
+<body>
+   <div class="header">
+        <div class="logo-container">
+            <img src="logo.png" alt="Logo" class="logo">
+            <span class="brand-name"><h3>NIHONGO </h3>
+                <h3>BENKYOU</h3></span>
+        </div>
+    </div>
+    </div>
+    <div class="navbar">
+        <a href="kelompok.html">HOME</a>
+        <a href="#">KOSA KATA</a>
+        <a href="polakalimat.html">POLA KALIMAT</a>
+        <a href="kanji.html">KANJI</a>
+        <a href="quiz.html">QUIZ</a>
+        <a href="about.html">ABOUT US</a>
+    </div>
+    <div class="content">
+        <h2>PILIH KATEGORI</h2>
+        <div class="grid-container">
+            <a href="angka.html"><div class="grid-item">ANGKA</div></a>
+            <div class="grid-item">WAKTU</div>
+            <div class="grid-item">SEKOLAH DAN KELAS</div>
+            <div class="grid-item">ORANG DAN KELUARGA</div>
+            <div class="grid-item">ALAM DAN CUACA</div>
+            <div class="grid-item">BINATANG DAN TUMBUHAN</div>
+            <div class="grid-item">MAKANAN DAN MINUMAN</div>
+            <div class="grid-item">RUMAH DAN BARANG DI RUMAH</div>
+            <div class="grid-item">PAKAIAN DAN AKSESORIS</div>
+            <div class="grid-item">PEKERJAAN DAN PROFESI</div>
+            <div class="grid-item">KEGIATAN</div>
+            <div class="grid-item">KOTA DAN FASILITAS</div>
+            <div class="grid-item">LALU LINTAS DAN POS</div>
+            <div class="grid-item">POSISI, TEMPAT, DAN ARAH</div>
+            <div class="grid-item">WARNA DAN BENTUK</div>
+        </div>
+    </div>
+</body>
+</html>

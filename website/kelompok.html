@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nihongo Benkyou</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #c60c30;
+            padding: 15px;
+            color: white;
+            text-align: center;
+        }
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px; /* Membuat elemen sejajar secara vertikal */
+        }
+
+        .logo {
+            width: 100px; /* Atur ukuran logo */
+            margin-right: 1px; /* Jarak antara logo dan teks */
+        }
+        .brand-name {
+            font-size: 20px;
+            font-weight: bold;
+            color: #ffffff; /* Warna putih untuk kontras dengan latar belakang merah */
+            letter-spacing: 1px; /* Memberikan jarak antar huruf */
+            font-family: 'Arial', sans-serif;
+        } 
+        .container img {
+            width: 100%; 
+            height: auto;
+            place-items: absolute ;
+        }
+        .nav-bar {
+            background-color: #b00c25;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+            font-weight: bold;
+        }
+        .nav-bar a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 16px;
+        }
+        .nav-bar a:hover {
+            background-color: #f5f2f2;
+            border-radius: 5px;
+        }
+        .banner {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .banner img {
+            width: 100%;
+            max-width: 1150px;
+            height: 250px;
+            border-radius: 0%;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+        .card {
+            border: 2px solid #c60c30;
+            border-radius: 8px;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .card h3 {
+            margin-top: 15px;
+            color: #c60c30;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo-container">
+            <img src="logo.png" alt="Logo" class="logo">
+            <span class="brand-name"><h3>NIHONGO </h3>
+                <h3>BENKYOU</h3></span>
+        </div>
+    </div>
+    <div class="nav-bar">
+        <a href="#">HOME</a>
+        <a href="kosakata.html">KOSA KATA</a>
+        <a href="polakalimat.html">POLA KALIMAT</a>
+        <a href="kanji.html">KANJI</a>
+        <a href="quiz.html">QUIZ</a>
+        <a href="about.html">ABOUT US</a>
+    </div>
+    <div class="banner">
+        <img src="image 4.png" alt="Banner">
+    </div>
+    <div class="container">
+        <div class="card">
+            <h3>HIRAGANA</h3>
+            <img src="image 2.png" alt="Hiragana">
+        </div>
+        <div class="card">
+            <h3>KATAKANA</h3>
+            <img src="image 1.png" alt="Katakana">
+        </div>
+        <div class="card">
+            <h3>KOSA KATA</h3>
+            <img src="image.png" alt="KOSAKATA">
+        </div>
+        <div class="card">
+            <h3>POLA KALIMAT</h3>
+            <img src="image 3.png" alt="Pola Kalimat">
+        </div>
+        <div class="card">
+            <h3>KANJI</h3>
+            <img src="image-removebg-preview 2.png" alt="Kanji">
+        </div>
+        <div class="card">
+            <h3>QUIZ</h3>
+            <img src="image-removebg-preview (2) 1.png" alt="Quiz">
+        </div>
+    </div>
+</body>
+</html>

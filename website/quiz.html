@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Nihongo Benkyou</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+        }
+        .header {
+            background-color: #c60c30;
+            padding: 15px;
+            color: white;
+            text-align: center;
+        }
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+        }
+        .logo {
+            width: 100px;
+            margin-right: 1px;
+        }
+        .brand-name {
+            font-size: 20px;
+            font-weight: bold;
+            color: #ffffff;
+            letter-spacing: 1px;
+            font-family: 'Arial', sans-serif;
+        }
+        nav {
+            background-color: #b00c25;
+            padding: 10px;
+            display: flex;
+            justify-content: space-around;
+            font-weight: bold;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 16px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background-color: #f5f2f2;
+            border-radius: 5px;
+        }
+        .container {
+            padding: 20px;
+        }
+        .quiz-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fdfdfd;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+        }
+        .quiz-section {
+            border-left: 4px solid #ffc0cb;
+            padding-left: 15px;
+            font-size: 18px;
+        }
+        .quiz-section h3 {
+            margin: 0 0 10px 0;
+            color: #b00c25;
+            font-weight: bold;
+        }
+        .quiz-section ul {
+            list-style: none;
+            padding: 0;
+        }
+        .quiz-section ul li {
+            margin-bottom: 5px;
+        }
+        .quiz-section ul li a {
+            color: #333;
+            text-decoration: none;
+        }
+        .quiz-section ul li a:hover {
+            text-decoration: underline;
+            color: #b00c25;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo-container">
+            <img src="logo.png" alt="Logo" class="logo">
+            <div class="brand-name">
+                <h3>NIHONGO</h3>
+                <h3>BENKYOU</h3>
+            </div>
+        </div>
+    </div>
+    <nav>
+        <a href="kelompok.html">HOME</a>
+        <a href="kosakata.html">KOSA KATA</a>
+        <a href="polakalimat.html">POLA KALIMAT</a>
+        <a href="kanji.html">KANJI</a>
+        <a href="quiz.html">QUIZ</a>
+        <a href="about.html">ABOUT US</a>
+    </nav>
+    <div class="container">
+        <div class="quiz-grid">
+            <div class="quiz-section">
+                <h3>Quiz Kosa Kata</h3>
+                <ul>
+                    <li><a href="quiz_kosakata1.html">Kosa Kata 1 (1-10)</a></li>
+                    <li><a href="quiz_kosakata2.html">Kosa Kata 2 (11-20)</a></li>
+                    <li><a href="quiz_kosakata3.html">Kosa Kata 3 (21-30)</a></li>
+                </ul>
+            </div>
+            <div class="quiz-section">
+                <h3>Quiz Kata Sifat</h3>
+                <ul>
+                    <li><a href="quiz_katasifat1.html">Kata Sifat 1 (1-10)</a></li>
+                    <li><a href="quiz_katasifat2.html">Kata Sifat 2 (11-20)</a></li>
+                    <li><a href="quiz_katasifat3.html">Kata Sifat 3 (21-30)</a></li>
+                </ul>
+            </div>
+            <div class="quiz-section">
+                <h3>Quiz Kanji</h3>
+                <ul>
+                    <li><a href="quiz_kanji1.html">Kanji 1 (1-10)</a></li>
+                    <li><a href="quiz_kanji2.html">Kanji 2 (11-20)</a></li>
+                    <li><a href="quiz_kanji3.html">Kanji 3 (21-30)</a></li>
+                </ul>
+            </div>
+            <div class="quiz-section">
+                <h3>Quiz Pola Kalimat</h3>
+                <ul>
+                    <li><a href="quiz_polakalimat1.html">Pola Kalimat 1 (1-10)</a></li>
+                    <li><a href="quiz_polakalimat2.html">Pola Kalimat 2 (11-20)</a></li>
+                    <li><a href="quiz_polakalimat3.html">Pola Kalimat 3 (21-30)</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
